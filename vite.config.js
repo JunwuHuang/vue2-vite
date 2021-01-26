@@ -9,6 +9,8 @@ export default {
     createVuePlugin({
       jsx: true
     }),
-    babel()
+    babel({
+      babelHelpers: 'bundled'
+    })
   ]
 }

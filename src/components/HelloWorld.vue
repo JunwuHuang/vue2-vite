@@ -10,7 +10,9 @@
       <a href="https://vuejs.org/" target="_blank">Vue 2 Documentation</a>
     </p>
 
-    <button @click="count++">count is: {{ count }}</button>
+    <van-button type="primary" @click="count++">
+      count is: {{ count }}
+    </van-button>
     <p>
       Edit
       <code>components/HelloWorld.vue</code> to test hot module replacement.
@@ -20,6 +22,7 @@
 
 <script>
   export default {
+    name: 'HelloWorld',
     props: {
       msg: String
     },
