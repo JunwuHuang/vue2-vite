@@ -1,0 +1,8 @@
+# ignore files
+*ignore
+
+# yarn
+yarn.lock
+
+# husky configure
+.husky
